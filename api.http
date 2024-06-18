@@ -1,0 +1,29 @@
+@host = https://5r3k78l2s1.execute-api.us-east-1.amazonaws.com
+
+GET  {{host}}/products
+
+###
+GET  {{host}}/products/66504e5d-dfc3-4133-9db4-b32039e1c323
+
+###
+POST  {{host}}/products
+Content-Type: application/json
+
+{
+  "name": "Moleton JStack",
+  "price": 89.90,
+  "tags": ["moleta top", "jstack"]
+}
+
+###
+PUT  {{host}}/products/01a53535-e30e-4223-bef9-565b8e732e6b
+Content-Type: application/json
+
+{
+  "name": "Moleton JStack",
+  "price": 110.85,
+  "tags": ["moleta top", "jstack"]
+}
+
+###
+DELETE  {{host}}/products/8a500ece-9b08-4121-942e-babf314b9569
