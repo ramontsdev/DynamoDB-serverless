@@ -1,5 +1,5 @@
 {
-  "name": "live017",
+  "name": "crud-dynamodb",
   "version": "1.0.0",
   "description": "Serverless aws-nodejs-typescript template",
   "main": "serverless.ts",
